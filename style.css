@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5D737E;
+}
+/* properties for navigation bar */
+#nav-box{
+    height: 70px;
+    background-color:#000000;
+}
+
+#nav-box ul {
+    display: flex;
+    list-style: none;
+    height: 100%;
+    align-items: center;
+}
+
+#nav-box li{
+    flex:1;
+    text-align:center;
+}
+
+#nav-box a{
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: 300;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+#nav-box a::after{
+    content: "";
+    position: absolute;
+    left: 0;              
+    bottom: 0;             
+    width: 0;              
+    height: 2px;          
+    background: black;
+    transition: width 0.3s ease;
+}
+
+#nav-box a:hover::after {
+    width: 100%;
+}
+
+/* properties for main heading */
+
+#d1{
+    padding:5% 10% 25px 10%;
+    text-align:center;
+    text-decoration:underline;
+    background-color: #F0F4EF;
+    font-weight:700px;
+}
+
+/* properties for main content  */
+
+#d2{
+    padding:1% 10%;
+    display:flex;
+    height: auto;
+    background-color:  #F0F4EF;
+}
+
+#d2 p{
+    flex:1;
+    margin:5px;
+    font-size: 2vw;
+    font-family: "satisfy", cursive;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center; 
+    
+}
+
+/* button properties */
+#d3{
+    padding: 50px 10%;
+    height: auto;
+    align-items:center;   
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    background-color:  #F0F4EF ;
+}
+#d3 button{
+    width: 20vh;
+    height: 5em;
+    border-radius: 16px;
+    border: none;
+}
+#d3 button a{
+    font-size:large;
+    text-decoration: none;
+    color: black;
+}
+/* heading below button */
+#d4{
+    padding:4vh;
+}
+#d4 h3{
+    color: white;
+    text-align: center;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+#d4-1{
+    padding: 4vh;
+}
+#d4-1 ul{
+    display:flex;
+    height:100%;
+    align-items: center;
+    list-style: none;
+    
+}
+#d4-1 li{
+    flex: 1;
+    margin: 0px;
+    color: rgb(24, 18, 18);
+    font-size: 34px;
+    font-family: "satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+#d0{
+    margin:5%;
+    position:fixed;
+    bottom:0;
+    right:0; 
+    font-size:24px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:700px;
+    text-decoration:underline;
+}
