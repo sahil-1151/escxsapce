@@ -26,7 +26,7 @@ body{
 
 #nav-box a{
     text-decoration: none;
-    font-size:x-large;
+    font-size:medium;
     font-weight: 300;
     font-family:'Times New Roman', Times, serif;
     color: white;
@@ -71,7 +71,7 @@ body{
 #d2 p{
     flex:1;
     margin:5px;
-    font-size: 2vw;
+    font-size: 4vw;
     font-family: "satisfy", cursive;
     font-weight: 300;
     font-style: normal;
